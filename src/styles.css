@@ -13,3 +13,38 @@
 body {
   min-height: 100vh;
 }
+
+header h1{
+  height: 50px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+header nav {
+  background: #333;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: brown;
+}
+
+main img {
+  height: 570px;
+  width: 100%;
+}
