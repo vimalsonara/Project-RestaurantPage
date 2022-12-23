@@ -48,3 +48,28 @@ main img {
   height: 570px;
   width: 100%;
 }
+
+.menus {
+  background-color: gray;
+  height: 500px;
+  /* width: 100%; */
+}
+
+.menus ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+.menus ul li {
+  margin-top: 50px;
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 200px;
+  border: 2px solid black;
+  font-size: 1.5rem;
+
+}
