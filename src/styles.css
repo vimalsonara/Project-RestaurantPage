@@ -87,3 +87,11 @@ main img {
   color: white;
   font-size: 1.5em;
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
