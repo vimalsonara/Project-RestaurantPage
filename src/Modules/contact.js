@@ -1,6 +1,7 @@
 export function contactUs() {
     const container = document.querySelector('#content');
     const div = document.createElement('div');
+    div.setAttribute('id', 'page');
     div.classList.add('contactPage');
     container.appendChild(div);
     const p = document.createElement('p');

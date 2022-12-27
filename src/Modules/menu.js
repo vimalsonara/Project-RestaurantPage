@@ -3,6 +3,7 @@ export function menu() {
 
     const menuItem = ['Margherita Pizza', 'Italian Pizza', 'Masala Maggie', 'Mexixan Sizzler', 'Aloo Paratha', 'Nutella Shake'];
     const div = document.createElement('div');
+    div.setAttribute('id', 'page')
     div.classList.add('menus')
     const ul = document.createElement('ul')
 
