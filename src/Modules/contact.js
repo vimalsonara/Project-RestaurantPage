@@ -9,5 +9,4 @@ export function contactUs() {
     
     p.innerHTML = 'Nyari Hills Cafe,</br>Kalawad-Nyari Dam Road,</br>Near IOC Petrol Pump,</br>Rajkot-360005,</br>Gujarat';
 
-    console.log(p);
 }
